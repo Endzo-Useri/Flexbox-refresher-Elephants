@@ -45,8 +45,20 @@ p {
 }
 
 .col {
-	padding: 0.5em;
+	/* padding: 0.5em; */
 	/* border: 5px solid yellow; */
+}
+
+.col-1 {
+	width: 25%;
+}
+
+.col-2 {
+	width: 50%;
+}
+
+.col-3 {
+	width: 75%;
 }
 
 .col-bg {
