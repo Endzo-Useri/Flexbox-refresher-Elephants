@@ -82,6 +82,14 @@ p {
 	width: 70%;
 }
 
+@media (max-width: 600px) {
+	.col-1,
+	.col-2,
+	.col-3 {
+		width: 100%;
+	}
+}
+
 .col-bg {
 	background: #312614;
 	color: #fff;
