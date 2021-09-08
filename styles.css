@@ -3,6 +3,19 @@ body {
 	font-size: 1.125rem;
 	color: #707070;
 	font-family: 'Roboto', sans-serif;
+	background: pink;
+}
+
+@media (min-width: 650px) {
+	body {
+		background: orange;
+	}
+}
+
+@media (min-width: 550px) and (max-width: 649px) {
+	body {
+		background: magenta;
+	}
 }
 
 /* Typography */
@@ -41,6 +54,7 @@ p {
 .cols {
 	display: flex;
 	justify-content: space-between;
+	align-items: flex-start;
 	/* border: 5px solid magenta; */
 	margin: 1em 0;
 }
