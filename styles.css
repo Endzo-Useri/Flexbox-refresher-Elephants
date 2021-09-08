@@ -1,5 +1,6 @@
 body {
-	margin: 0px;
+	margin: 0;
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -7,9 +8,10 @@ h1 {
 }
 
 .container {
-	width: 50%;
-	max-width: 50%;
-	border-top: 3px solid green;
+	width: 90%;
+	max-width: 70%;
+	margin: 0 auto;
+	/* border: 5px solid green; */
 }
 
 .elephants {
@@ -18,9 +20,11 @@ h1 {
 
 .cols {
 	display: flex;
-	border: 3px solid magenta;
+	/* border: 5px solid magenta; */
+	margin: .5em 0;
 }
 
 .col {
-	border: 3px solid yellow;
+	padding: 0.5em;
+	border: 5px solid yellow;
 }
