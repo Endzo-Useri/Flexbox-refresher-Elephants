@@ -40,6 +40,7 @@ p {
 
 .cols {
 	display: flex;
+	justify-content: space-between;
 	/* border: 5px solid magenta; */
 	margin: 1em 0;
 }
@@ -50,15 +51,15 @@ p {
 }
 
 .col-1 {
-	width: 25%;
+	width: 20%;
 }
 
 .col-2 {
-	width: 50%;
+	width: 45%;
 }
 
 .col-3 {
-	width: 75%;
+	width: 70%;
 }
 
 .col-bg {
