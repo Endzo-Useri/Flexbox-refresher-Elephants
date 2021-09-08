@@ -59,6 +59,12 @@ p {
 	margin: 1em 0;
 }
 
+@media (max-width: 600px) {
+	.cols {
+		flex-direction: column;
+	}
+}
+
 .col {
 	/* padding: 0.5em; */
 	/* border: 5px solid yellow; */
