@@ -1,12 +1,16 @@
 body {
 	margin: 0;
 	font-size: 1.125rem;
+	color: #707070;
 	font-family: 'Roboto', sans-serif;
 }
 
+/* Typography */
+
 h1 {
-	text-align: center;
 	font-size: 3rem;
+	color: #312614;
+	text-align: center;
 }
 
 h2 {
