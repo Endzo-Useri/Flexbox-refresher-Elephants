@@ -22,6 +22,11 @@ body {
 
 header {
 	border: 2px solid magenta;
+	background: #f8f8f8;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
 }
 
 .header {
@@ -30,6 +35,10 @@ header {
 
 nav {
 	border: 2px solid magenta;
+}
+
+.text-accent {
+	color: red;
 }
 
 h1 {
