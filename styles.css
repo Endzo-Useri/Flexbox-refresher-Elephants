@@ -20,6 +20,18 @@ body {
 
 /* Typography */
 
+header {
+	border: 2px solid magenta;
+}
+
+.header {
+	border: 2px solid magenta;
+}
+
+nav {
+	border: 2px solid magenta;
+}
+
 h1 {
 	font-size: 3rem;
 	color: #312614;
